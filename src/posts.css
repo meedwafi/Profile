@@ -1,0 +1,10 @@
+.addpost{
+    background-color: #f8f9fa;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #a9a6a6; /* Add a border around input fields */
+   border-radius: 5px; /* Rounded corners for inputs */
+   box-sizing: border-box; /* Include padding and border in element's total width and height */
+
+}

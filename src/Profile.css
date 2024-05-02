@@ -1,0 +1,89 @@
+.profileContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #2f2f2f; /* Add a background color for clarity */
+  }
+  
+  .profileImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid #747272; /* Add border and change its color */
+  }
+
+  .postImage{
+    width: 400px;
+    height: auto;
+    border-radius: none;
+    object-fit: contain;
+    margin-bottom: 20px;
+    border: none; 
+  }
+  
+  .profileDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .profileDetails h2 {
+    margin-bottom: 20px;
+    font-size: 24px; /* Increase font size for better readability */
+  }
+  
+  .profileDetails button {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #747272;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .profileDetails button:hover {
+    background-color: #000000;
+  }
+  
+  .friendList {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .friendItem {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #4b4b4b;
+  }
+  
+  @media (max-width: 600px) {
+    .profileContainer {
+      padding: 10px;
+    }
+  
+    .profileImage {
+      width: 100px;
+      height: 100px;
+      border-width: 2px; /* Reduce border width for smaller screens */
+    }
+  
+    .profileDetails h2 {
+      font-size: 18px;
+    }
+  
+    .profileDetails button {
+      padding: 5px 10px;
+    }
+  }

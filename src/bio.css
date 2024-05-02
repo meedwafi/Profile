@@ -1,0 +1,26 @@
+.bioInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #323232;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .bioText {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+  .editbio {
+    background-color: #2f2f2f;
+    width: 100%;
+    padding: 10px;
+    margin-top: 0 auto;
+    margin-bottom: 20px;
+    border: 1px solid #747272; /* Add a border around input fields */
+   border-radius: 5px; /* Rounded corners for inputs */
+   box-sizing: border-box; /* Include padding and border in element's total width and height */
+
+  }
+  

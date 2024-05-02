@@ -1,0 +1,41 @@
+.editProfileForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: none; /* Add a border for visual clarity */
+   border-radius: 5px; /* Rounded corners for aesthetics */
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #2f2f2f; /* Add a background color for clarity */
+
+  }
+  
+  .editProfileInput {
+    background-color: #4b4b4b;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #a9a6a6; /* Add a border around input fields */
+   border-radius: 5px; /* Rounded corners for inputs */
+   box-sizing: border-box; /* Include padding and border in element's total width and height */
+
+  }
+  
+  .editProfileButton {
+    padding: 10px 20px;
+    background-color: #747272;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners for button */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+
+  
+  .editProfileButton:hover {
+    background-color: #000000;
+  }

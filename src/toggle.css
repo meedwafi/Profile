@@ -1,0 +1,26 @@
+.toggleContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+  
+  
+  .toggleButton {
+     padding: 10px 20px;
+    background-color: #747272;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners for button */
+    transition: background-color 0.3s;
+  }
+  
+  .toggleButton:hover {
+    color: #000000; /* Change color on hover */
+  }
+  
+  .activeToggle {
+    color: #000000; /* Active button color */
+    font-weight: bold; /* Bolden active button */
+  }
+  
